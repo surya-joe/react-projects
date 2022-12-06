@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background: url(../../assets/images/pattern\(2\).png)
+}
+.loveCalculator{
+    background:transparent;
+    background:#ff4476cc;
+    filter:drop-shadow(12px);
+    padding:3rem;
+}
+form{
+    margin:1rem;
+}
+
+input{
+    padding:1rem;
+    margin:1rem;
+    font-size: 1rem;
+}
+button{
+    padding:1rem 1.5rem;
+    margin:auto 1rem;
+    border-style:none;
+    background:#fff;
+    border:1px solid #000;
+    cursor: pointer;
+}
+button:hover{
+    background:#ff4476cc;
+    color:#fff;
+    transform: scale(1.1);
+    transition:0.2s ease;
+}
+.coupleReport{
+    margin:1rem;
+    padding:2rem;
+    background: #ffffff;
+}
+.coupleReport p{
+    margin:1rem;
+}
+
