@@ -1,0 +1,48 @@
+body{
+    background: url('../../assets/images/CloudyWhite.svg');
+    color:#fafafa
+}
+h2{
+    font-size: 2rem;
+    margin:1rem
+}
+input, button{
+    font-size: 1rem;
+    padding:1rem;
+    margin:0.5rem;
+}
+button:hover{
+    background: #356cb1;
+    color:#fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cardRow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:1rem
+}
+.cardRow span{
+    display: block;
+    color:#000;
+    font-size: 1rem;
+    margin:1rem;
+    padding:1rem;
+    background: #f0f5fb;
+    border-radius: 1rem;
+}
+#upcomingForecasts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#upComingForecasts span{
+    font-size: 1rem;
+    padding: 0;
+    color:#f0f5fb;
+    background: none;
+    border-radius: 0;
+    text-align: left;
+}
