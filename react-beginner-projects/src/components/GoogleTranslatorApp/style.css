@@ -1,0 +1,53 @@
+*{
+    font-size: 1rem;
+}
+body{
+    background: url('../../assets/images/wordPatternWhite.png');
+}
+
+#GoogleTranslator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(79, 164, 250,0.7);
+    backdrop-filter: blur(4px);
+    padding:3rem;
+    border-radius: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin:2rem;
+}
+#inputField input{
+    padding:1rem
+}
+
+#selectLanguage{
+    position:relative;
+    margin:1rem;
+}
+#selectLanguage select{
+    padding:0.3rem;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+button:hover{
+    background: #fa2c60;
+    color:#fff;
+    transition:0.2s;
+    backdrop-filter: blur(4px);
+}
+button,select,#translation{
+    background: #fafafa;
+}
+#translation{
+    padding:1rem 4rem;
+    margin:1rem;
+    border-radius: 1rem;
+}

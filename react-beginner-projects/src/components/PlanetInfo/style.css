@@ -1,0 +1,49 @@
+body{
+    background: #213a57;
+    background: url('../../assets/images/Moon.svg');
+}
+h2{
+    color:#fff;
+    font-size: 2.5rem;
+}
+
+input,button{
+    padding:1rem;
+    margin:1rem 0.5rem;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: #ff6049;
+    transition: 0.3s;
+}
+.card{
+    text-align: left;
+    padding:2rem;
+    width:400px;
+    background-color: #00a189;
+    border-radius: 1.5rem;    
+}
+h3{
+    padding:0.5rem 0;
+}
+h3:first-child{
+    color:#fff;
+    text-align: right;
+}
+#planetId{
+    padding:1rem 1.3rem;
+    background: #fff;
+    border-radius: 50%;
+}
+span,p{
+    font-size: 1rem;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.7)
+}
+p{
+    padding:0 0.5rem;
+    line-height: 1.2rem;
+}
