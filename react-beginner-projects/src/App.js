@@ -1,6 +1,7 @@
 import './App.css';
-import { PlanetInfo } from './components/PlanetInfo/PlanetInfo';
-// import { OnChangeReducer } from './components/OnChangeReducer/OnChangeReducer';
+import { TodoHome } from './components/TodoApp/components/TodoHome';
+// import { LoveMeter } from './components/LoveMeterApp/LoveMeter';
+// import { GoogleTranslator } from './components/GoogleTranslatorApp/GoogleTranslator';
 
 // import { CounterApp } from './components/CounterApp/CounterApp';
 // import { StopWatch } from './components/StopWatch/StopWatch';
@@ -17,6 +18,9 @@ import { PlanetInfo } from './components/PlanetInfo/PlanetInfo';
 // import { ParentCompo } from './components/useContextUsReducerCounterApp/ParentCompo';
 // import { DataFetchUseReducer } from './components/useReducerDataFetch/DataFetchUseReducer';
 // import { PlanetDetails } from './components/PlanetDetailApp/PlanetDetails';
+// import { OnChangeReducer } from './components/OnChangeReducer/OnChangeReducer';
+// import { PlanetInfo } from './components/PlanetInfo/PlanetInfo';
+// import { ReactJsonServer } from './components/react&json/ReactJsonServer';
 
 
 
@@ -40,7 +44,9 @@ function App() {
       {/* <DataFetchUseReducer /> */}
       {/* <PlanetDetails /> */}
       {/* <OnChangeReducer /> */}
-      <PlanetInfo />
+      {/* <PlanetInfo /> */}
+      {/* <ReactJsonServer /> */}
+      <TodoHome />
     </div>
   );
 }
