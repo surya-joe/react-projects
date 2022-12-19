@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.App{
+  text-align: center;
+}
+#navbar {
+  text-decoration: none;
+  padding:2rem;
+  background-color: #11a3fa;
+  text-align: left;
+}
+#navbar a{
+  text-decoration: none;
+  margin: 1rem;
+  padding:0.5rem 1rem;
+  transition:0.3s;
+  color:#fff;
+}
+#navbar a:hover{
+  background: #fff;
+  color:#000;
+}
+#home{
+  padding:1.5rem;
+}
+#home h1{
+  font-size: 4rem;
+}
+#home,
+#table,
+#addUser,
+#updateUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+table, 
+td{
+  border: 1px solid #000;
+}
+thead tr{
+  background: #252525;
+  color:#fff
+}
+td{
+  padding:0.5rem
+}
+#addUser input,
+#updateUser input{
+  padding:1rem;
+  display: flex;
+  margin: 1rem;
+}
+#addUser button{
+  border-style: none;
+  background: #00ff5e;
+  padding:0.8rem 1.5rem;
+}
+#addUser button:hover{
+  cursor: pointer;
+}
+button{
+  padding:0.5rem 1rem;
+  margin:0.5rem;
+  border-style: none;
+  transform: 0.3s ease;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.editBtn{
+  background: #2baeff;
+}
+.deleteBtn,
+#cancelBtn{
+  background:#fe3c3c;
+}
+#updateBtn{
+  background: #00ff5e;
+}
