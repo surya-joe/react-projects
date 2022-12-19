@@ -16,25 +16,13 @@ export const WeatherCard = ({report}) => {
         </div>
         <h2>UpComing Forecasts</h2>
         <div className='cardRow' id='upComingForecasts'>
-            {/* <h3>Day */}
-                <p>
-                    {
-                        upComingForecasts.map(
-                            (item,i) =>  <span key={i}>{item.day} - {item.text} </span> 
-                        )        
-                    }
-                </p>
-            {/* </h3>  */}
-            {/* <h3>Condition
-                <p>
-                    {
-                        upComingForecasts.map(
-                            (item,i) =>  <span key={i}>{item.text} </span> 
-                        )        
-                    }
-                </p>
-            </h3>  */}
-           
+            <p>
+                {
+                    upComingForecasts.map(
+                        (item,i) =>  <span key={i}>{item.day} - {item.text} </span> 
+                    )        
+                }
+            </p>
         </div>
     </section>
   )

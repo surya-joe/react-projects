@@ -5,7 +5,7 @@ import './style.css'
 
 
 export const YahooWeatherApp = () => {
-    const [weatherData, setWeatherData] = useState({})
+    const [weatherData, setWeatherData] = useState([])
     const [cityName, setCityName] = useState('')
     const [isLoading, setIsLoading] = useState(false)
     const [isSubmited, setIsSubmited] = useState(false)
@@ -28,6 +28,7 @@ export const YahooWeatherApp = () => {
         await axios.request(options)
         .then( re => {
             setWeatherData(re.data)
+            console.log(re.data)
         }).catch( er => {
             setWeatherData(er)
             console.log(er)
@@ -36,6 +37,7 @@ export const YahooWeatherApp = () => {
         setIsSubmited(true)
         setIsLoading(false)
     }
+
 
   return (
     <div>
@@ -54,7 +56,7 @@ export const YahooWeatherApp = () => {
             isSubmited 
             ? isLoading 
             ? <p>Loading...</p> 
-            : <WeatherCard report={weatherData} /> 
+            : <WeatherCard report={weatherData} />
             : null
         }
     </div>

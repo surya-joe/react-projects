@@ -37,4 +37,6 @@ button:hover{
 .coupleReport p{
     margin:1rem;
 }
-
+b{
+    font-weight: 700;
+}

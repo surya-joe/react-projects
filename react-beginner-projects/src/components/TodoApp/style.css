@@ -1,0 +1,66 @@
+body{
+    min-height: 100vh;
+}
+h2{
+    font-size: 3rem;
+    margin: 2rem auto;
+}
+form{
+    margin:1rem auto;
+}
+#todoList ul{
+    text-align: left;
+    margin:2rem auto;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+#editActions{
+    display: flex;
+}
+svg{
+    font-size: 1.5rem;
+    float: right;
+    margin:0.5rem;
+}
+svg:hover{
+    cursor: pointer;
+}
+AiOutlineCheckSquare{
+    color:#00a2ff
+}
+MdDeleteForever{
+    color:#ff5454
+}
+#strike{
+    text-decoration: line-through;
+}
+
+#todo input{
+    padding:1rem;
+    border:1px solid #000;
+    width:100%;
+}
+
+#todo button{
+    border-style: none;
+    padding:0.5rem 1.5rem;
+    margin:1rem;
+    background: #00a2ff;
+}
+#todo button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
